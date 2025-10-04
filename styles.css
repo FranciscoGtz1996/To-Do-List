@@ -1,0 +1,37 @@
+.mainBox {
+  position: relative;
+  top: 150px;
+  left: 200px;
+  border-style: solid black ;
+  border-color: black;
+
+}
+
+#bttnAddTask {
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}
+
+#taskInput {
+    position: absolute;
+    top: 95px;
+    left: 50px;
+}
+
+.paragraph {
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
+
+.tasksAdded {
+    position: relative;
+    top: 300px;
+}
+
+#bttnDeleteTask {
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}

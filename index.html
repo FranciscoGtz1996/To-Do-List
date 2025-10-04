@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="mainBox">
+        <h1 id="title">To-Do List Web App</h1>
+        <p class="paragraph">Below type your task</p>
+        <input id="taskInput" type="text" placeholder="Type a task..">
+        <button id="bttnAddTask">Add Task</button>
+    </div>
+
+    <div class="tasksAdded">
+       <h2>Tasks Added</h2> 
+      <ul id="taskList"></ul>
+      <button id="bttnDeleteTask">Delete All Tasks</button>
+    </div>
     
+
+<script src="app.js"></script>
 </body>
 </html>
