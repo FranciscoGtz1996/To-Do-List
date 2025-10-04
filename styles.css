@@ -1,37 +1,41 @@
 .mainBox {
-  position: relative;
-  top: 150px;
-  left: 200px;
-  border-style: solid black ;
-  border-color: black;
-
+    width: 350px;
+    height: 250px;
+    box-shadow: 4px 6px rgba(0,0,0,0.1);
+    margin: 150px auto;   /* centra el div horizontalmente con auto */
+   padding: 20px;
+  display: flex;
+  flex-direction: column;   /* hijos en columna */
+  align-items: center;      /* centrados */
+  gap: 15px;                /* espacio entre elementos */
+}
+#title {
+    text-align: center;
+    color: rgb(58, 36, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#bttnAddTask {
-    position: absolute;
-    top: 125px;
-    left: 100px;
-}
-
-#taskInput {
-    position: absolute;
-    top: 95px;
-    left: 50px;
+#taskInput, #bttnAddTask {
+  width: 80%;         /* más elegantes que con coordenadas */
+  padding: 10px;
 }
 
 .paragraph {
-    position: absolute;
-    top: 50px;
-    left: 75px;
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.tasksAdded {
-    position: relative;
-    top: 300px;
+#tasksAdded {
+        margin: 150px auto;   /* centra el div horizontalmente con auto */
+  width: 400px;
+  margin: 30px auto;
+  box-shadow: 4px 6px rgba(0.2, 46, 24, 0.2);
+  padding: 20px;
+  visibility: hidden;
 }
 
 #bttnDeleteTask {
-    position: absolute;
-    top: 125px;
-    left: 100px;
+  margin-top: 20px;
+  display: block;
 }
