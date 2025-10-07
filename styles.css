@@ -15,7 +15,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#taskInput, #bttnAddTask {
+#taskInput, #bttnAddTask, #bttnDeleteTask, #bttnDeleteOneTask {
   width: 80%;         /* más elegantes que con coordenadas */
   padding: 10px;
 }
@@ -27,7 +27,7 @@
 }
 
 #tasksAdded {
-        margin: 150px auto;   /* centra el div horizontalmente con auto */
+  margin: 150px auto;   /* centra el div horizontalmente con auto */
   width: 400px;
   margin: 30px auto;
   box-shadow: 4px 6px rgba(0.2, 46, 24, 0.2);
@@ -35,7 +35,17 @@
   visibility: hidden;
 }
 
-#bttnDeleteTask {
-  margin-top: 20px;
-  display: block;
+#taskList li {
+  display: flex;
+  justify-content: space-between; /* texto a la izq, botón a la der */
+  align-items: center;
+  margin-bottom: 8px;
+  background: #f0f0f0f6;
+  padding: 8px;
+  border-radius: 4px;
 }
+
+.deleteBtn:hover {
+  background: darkred;
+}
+
