@@ -45,7 +45,16 @@
   border-radius: 4px;
 }
 
+#taskList li span {
+  flex: 1; /* ocupa todo el espacio disponible a la izquierda */
+}
+
+
 .deleteBtn:hover {
   background: darkred;
+}
+
+.checkedBtn:hover {
+  background: rgb(63, 139, 0);
 }
 
