@@ -1,2 +1,2 @@
 # To-Do-List
-With this web app you can have a track of things during your day and marked them as completed or pending depending the case
+With this page you can track the tasks you are planning to have during your day, as well as marked them as completed, deleting a single task or all when done.
